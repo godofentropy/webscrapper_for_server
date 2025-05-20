@@ -1,8 +1,2 @@
-# runtime / build artefacts
-.venv/
+# ignore Playwright browser binaries
 ms-playwright/
-__pycache__/
-node_modules/
-*.log
-ms-playwright/
-__pycache__/
