@@ -1,0 +1,8 @@
+# runtime / build artefacts
+.venv/
+ms-playwright/
+__pycache__/
+node_modules/
+*.log
+ms-playwright/
+__pycache__/
