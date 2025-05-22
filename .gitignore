@@ -1,1 +1,3 @@
+.scrapper/
 ms-playwright/
+__pycache__/
