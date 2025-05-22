@@ -3,6 +3,8 @@ import re
 from playwright.async_api import async_playwright
 from urllib.parse import urljoin, urlparse
 
+BROWSER_WS = "wss://chrome.browserless.io?token=2SMOmZ5yLOP4STq5714f847cf834e6888129826a749834ba0"
+
 # ===============================
 # 1. Default Generative AI Keywords
 # ===============================
