@@ -190,7 +190,7 @@ async def run_all_crawls(urls, keywords, max_pages):
     Returns a flattened list of all scraping results.
     """
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.connect_over_cdp(BROWSER_WS)
         
         tasks = [
             asyncio.create_task(crawl_website(browser, url, keywords, max_pages))
